@@ -27,19 +27,16 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natous</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benfits</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>Initial</a></li>
+                    <li class="navigation__item"><a href="#section-about-me" class="navigation__link"><span>02</span>About me</a></li>
+                    <li class="navigation__item"><a href="#section-stories" class="navigation__link"><span>03</span>Personal Projects</a></li>
+                    <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>04</span>More about me</a></li>
+                    <li class="navigation__item"><a href="#section-book" class="navigation__link"><span>05</span>Contact me</a></li>
                     </ul>
             </nav>
         </div>
 
         <header class="header">
-            <div class="header__logo-box">
-                <img src="img/logo-white.png" alt="Logo" class="header__logo">
-            </div>
 
             <div class="header__text-box">
                 <h1 class="heading-primary">
@@ -48,7 +45,7 @@
                 </h1>
 
                 <a
-                    href="danielauler.com.br/DanielAulerResume.pdf"
+                    href="danielauler.dev/DanielAulerResume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="btn btn--white btn--animated"
@@ -205,78 +202,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-developer">
-                <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondary">
-                        Developer Career
-                    </h2>
-                </div>
-
-                <div class="row">
-                    <div class="col-1-of-2">
-                        <h3 class="heading-tertiary u-margin-bottom-small">Starts on graduation</h3>
-                        <p class="paragraph">
-                            When I started my second graduation I had some classes about digital electronics. 
-                            In that classes, I learned how to program microcontrollers, but besides fall in love 
-                            with digital electronics, my heartbeat harder for programming. After that, I began to learn
-                            how to program with python and this became an obsession: I need to work with that!
-                        </p>
-
-                        <h3 class="heading-tertiary u-margin-bottom-small">The first Opportunity</h3>
-                        <p class="paragraph">
-                            My developer career started at a local startup. My job was making a backend structure to 
-                            connect with multiple vehicles and collect some data to determine when that vehicle would 
-                            need manutence. Was backend but as a small startup, I was requested in other areas and started 
-                            to learn how to develop to mobile with React Native. After few months I migrate to take care
-                            of platform's backoffice on ReactJS.
-                        </p>
-                        <h3 class="heading-tertiary u-margin-bottom-small">DB opportunity</h3>
-                        <p class="paragraph">
-                            The startup doesn't have much success with it products and I ingressate on a job as pannel 
-                            developer
-                        </p>
-
-                        <a
-                            href="https://soundcloud.com/danielauler/tracks"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="btn-text"
-                        >
-                            All Projects &rarr;
-                        </a>
-                    </div>
-                    <div class="col-1-of-2">
-                        <div class="composition">
-
-                            <img srcset="img/djing2.jpeg 300w, img/djing2.jpeg.jpg 1000w"
-                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                                 alt="Photo 1"
-                                 class="composition__photo composition__photo--p1"
-                                 src="img/djing2.jpeg">
-                           
-                            <img srcset="img/dancer.jpeg 300w, img/dancer.jpeg 1000w"
-                                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                                alt="Photo 3"
-                                class="composition__photo composition__photo--p2"
-                                src="img/dancer.jpeg">
-
-                            <img srcset="img/Daniel_Baixa-6.jpg 300w, img/Daniel_Baixa-6.jpg 1000w"
-                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                                 alt="Photo 2"
-                                 class="composition__photo composition__photo--p3"
-                                 src="img/Daniel_Baixa-6.jpg">
-
-
-                            <!--
-                            <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                            <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                            <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
-                            -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section-stories">
+            <section class="section-stories" id="section-stories">
                 <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
                         <source src="img/video.mp4" type="video/mp4">
@@ -345,7 +271,7 @@
                     </a>
                 </div>
             </section>
-            <section class="section-about">
+            <section class="section-about" id="section-about">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         More about me
@@ -408,7 +334,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-book">
+            <section class="section-book" id="section-book">
                 <div class="row">
                     <div class="book">
                         <div class="book__form">
@@ -451,26 +377,15 @@
         </main>
 
         <footer class="footer">
-            <div class="footer__logo-box">
 
-                <picture class="footer__logo">
-                    <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
-                            media="(max-width: 37.5em)">
-                    <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo" src="img/logo-green-2x.png">
-                </picture>
-
-
-                
-            </div>
             <div class="row">
                 <div class="col-1-of-2">
                     <div class="footer__navigation">
                         <ul class="footer__list">
                             <li class="footer__item"><a href="#" class="footer__link">Title</a></li>
-                            <li class="footer__item"><a href="#section-about-me" class="footer__link">Contact us</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Carrers</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
-                            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                            <li class="footer__item"><a href="#section-about-me" class="footer__link">About me</a></li>
+                            <li class="footer__item"><a href="#section-stories" class="footer__link">Personal Projects</a></li>
+                            <li class="footer__item"><a href="#section-about" class="footer__link">More about me</a></li>
                         </ul>
                     </div>
                 </div>
